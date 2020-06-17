@@ -1,0 +1,11 @@
+.gradle
+build
+bin
+.idea
+.project
+.settings
+.classpath
+.DS_Store
+gradle
+gradlew
+gradlew.bat
