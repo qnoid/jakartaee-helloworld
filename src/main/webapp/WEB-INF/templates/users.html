@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Jakarta EE Servlet written in Kotlin with CDI, JPA support using Thymeleaf templates</title>
+</head>
+<body>
+<ul>
+<li th:each="user : ${users}">
+    <strong>Id:</strong> <th:block th:text="${user.id}"></th:block>,
+    <strong>Identifier:</strong> <th:block th:text="${user.identifier}"></th:block>
+</li>
+</ul>
+</body>
+</html>
